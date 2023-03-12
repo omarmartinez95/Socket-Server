@@ -5,7 +5,7 @@ import cors from 'cors';
 
 
 
-const server = new Server();
+const server = Server.instance;
 
 
 // bodyparser, antes de las rutas
