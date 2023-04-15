@@ -82,6 +82,7 @@ router.get('/usuarios', async(req: Request, res: Response)=>{
               ok: false,
               clientes: [],
             });
+            
         })
 })
 
