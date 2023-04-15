@@ -82,7 +82,7 @@ router.get('/usuarios', async(req: Request, res: Response)=>{
               ok: false,
               clientes: [],
             });
-            
+
         })
 })
 
@@ -97,3 +97,4 @@ router.get('/usuarios/detalle', (req: Request, res:Response)=>{
 })
 
 export default router;
+
